@@ -4741,7 +4741,7 @@ exports.isInAmpMode = isInAmpMode;
 
 function useAmp() {
   // Don't assign the context value to a variable to save bytes
-  return isInAmpMode(react_1.default.useContext(amp_context_1.AmpStateContext));
+  return isInAmpMode(react_1["default"].useContext(amp_context_1.AmpStateContext));
 }
 
 exports.useAmp = useAmp;
@@ -4816,13 +4816,13 @@ var amp_1 = __webpack_require__(/*! ./amp */ "./node_modules/next-server/dist/li
 
 function defaultHead() {
   var inAmpMode = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-  var head = [react_1.default.createElement("meta", {
+  var head = [react_1["default"].createElement("meta", {
     key: "charSet",
     charSet: "utf-8"
   })];
 
   if (!inAmpMode) {
-    head.push(react_1.default.createElement("meta", {
+    head.push(react_1["default"].createElement("meta", {
       key: "viewport",
       name: "viewport",
       content: "width=device-width,minimum-scale=1,initial-scale=1"
@@ -4841,8 +4841,8 @@ function onlyReactElement(list, child) {
   } // Adds support for React.Fragment
 
 
-  if (child.type === react_1.default.Fragment) {
-    return list.concat(react_1.default.Children.toArray(child.props.children).reduce(function (fragmentList, fragmentChild) {
+  if (child.type === react_1["default"].Fragment) {
+    return list.concat(react_1["default"].Children.toArray(child.props.children).reduce(function (fragmentList, fragmentChild) {
       if (typeof fragmentChild === 'string' || typeof fragmentChild === 'number') {
         return fragmentList;
       }
@@ -4911,17 +4911,17 @@ function unique() {
 
 function reduceComponents(headElements, props) {
   return headElements.reduce(function (list, headElement) {
-    var headElementChildren = react_1.default.Children.toArray(headElement.props.children);
+    var headElementChildren = react_1["default"].Children.toArray(headElement.props.children);
     return list.concat(headElementChildren);
   }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead(props.inAmpMode)).filter(unique()).reverse().map(function (c, i) {
     var key = c.key || i;
-    return react_1.default.cloneElement(c, {
+    return react_1["default"].cloneElement(c, {
       key: key
     });
   });
 }
 
-var Effect = side_effect_1.default();
+var Effect = side_effect_1["default"]();
 /**
  * This component injects elements to `<head>` of your page.
  * To avoid duplicated `tags` in `<head>` you can use the `key` property, which will make sure every tag is only rendered once.
@@ -4929,9 +4929,9 @@ var Effect = side_effect_1.default();
 
 function Head(_ref) {
   var children = _ref.children;
-  return react_1.default.createElement(amp_context_1.AmpStateContext.Consumer, null, function (ampState) {
-    return react_1.default.createElement(head_manager_context_1.HeadManagerContext.Consumer, null, function (updateHead) {
-      return react_1.default.createElement(Effect, {
+  return react_1["default"].createElement(amp_context_1.AmpStateContext.Consumer, null, function (ampState) {
+    return react_1["default"].createElement(head_manager_context_1.HeadManagerContext.Consumer, null, function (updateHead) {
+      return react_1["default"].createElement(Effect, {
         reduceComponentsToState: reduceComponents,
         handleStateChange: updateHead,
         inAmpMode: amp_1.isInAmpMode(ampState)
@@ -4941,7 +4941,7 @@ function Head(_ref) {
 }
 
 Head.rewind = Effect.rewind;
-exports.default = Head;
+exports["default"] = Head;
 
 /***/ }),
 
@@ -5001,7 +5001,7 @@ function mitt() {
   };
 }
 
-exports.default = mitt;
+exports["default"] = mitt;
 
 /***/ }),
 
@@ -5510,7 +5510,7 @@ function () {
             resolve(routeInfo);
           }, reject);
         });
-      }).catch(function (err) {
+      })["catch"](function (err) {
         return new _Promise(function (resolve) {
           if (err.code === 'PAGE_LOAD_ERROR') {
             // If we can't load the page it could be one of following reasons
@@ -5775,7 +5775,7 @@ function () {
                   return {
                     pageProps: pageProps
                   };
-                }).catch(function (err) {
+                })["catch"](function (err) {
                   return {
                     error: err.message,
                     status: status
@@ -5858,8 +5858,8 @@ function () {
   return Router;
 }();
 
-Router.events = mitt_1.default();
-exports.default = Router;
+Router.events = mitt_1["default"]();
+exports["default"] = Router;
 
 /***/ }),
 
@@ -6007,7 +6007,7 @@ var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var isServer = false;
 
-exports.default = function () {
+exports["default"] = function () {
   var mountedInstances = new _Set();
   var state;
 
@@ -6064,7 +6064,7 @@ exports.default = function () {
       }, {
         key: "componentWillUnmount",
         value: function componentWillUnmount() {
-          mountedInstances.delete(this);
+          mountedInstances["delete"](this);
           emitChange(this);
         }
       }, {
@@ -6314,7 +6314,7 @@ var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/help
 exports.__esModule = true;
 exports.useRouter = useRouter;
 exports.makePublicRouterInstance = makePublicRouterInstance;
-exports.createRouter = exports.withRouter = exports.default = void 0;
+exports.createRouter = exports.withRouter = exports["default"] = void 0;
 
 var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/@babel/runtime-corejs2/helpers/extends.js"));
 
@@ -6324,14 +6324,14 @@ var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_mod
 
 var _router2 = _interopRequireWildcard(__webpack_require__(/*! next-server/dist/lib/router/router */ "./node_modules/next-server/dist/lib/router/router.js"));
 
-exports.Router = _router2.default;
+exports.Router = _router2["default"];
 exports.NextRouter = _router2.NextRouter;
 
 var _routerContext = __webpack_require__(/*! next-server/dist/lib/router-context */ "./node_modules/next-server/dist/lib/router-context.js");
 
 var _withRouter = _interopRequireDefault(__webpack_require__(/*! ./with-router */ "./node_modules/next/dist/client/with-router.js"));
 
-exports.withRouter = _withRouter.default;
+exports.withRouter = _withRouter["default"];
 /* global window */
 
 var singletonRouter = {
@@ -6351,9 +6351,9 @@ var urlPropertyFields = ['pathname', 'route', 'query', 'asPath', 'components'];
 var routerEvents = ['routeChangeStart', 'beforeHistoryChange', 'routeChangeComplete', 'routeChangeError', 'hashChangeStart', 'hashChangeComplete'];
 var coreMethodFields = ['push', 'replace', 'reload', 'back', 'prefetch', 'beforePopState']; // Events is a static property on the router, the router doesn't have to be initialized to use it
 
-(0, _defineProperty.default)(singletonRouter, 'events', {
+(0, _defineProperty["default"])(singletonRouter, 'events', {
   get: function get() {
-    return _router2.default.events;
+    return _router2["default"].events;
   }
 });
 urlPropertyFields.forEach(function (field) {
@@ -6361,7 +6361,7 @@ urlPropertyFields.forEach(function (field) {
   // the property assigned to the actual router
   // The value might get changed as we change routes and this is the
   // proper way to access it
-  (0, _defineProperty.default)(singletonRouter, field, {
+  (0, _defineProperty["default"])(singletonRouter, field, {
     get: function get() {
       var router = getRouter();
       return router[field];
@@ -6379,7 +6379,7 @@ coreMethodFields.forEach(function (field) {
 });
 routerEvents.forEach(function (event) {
   singletonRouter.ready(function () {
-    _router2.default.events.on(event, function () {
+    _router2["default"].events.on(event, function () {
       var eventField = "on" + event.charAt(0).toUpperCase() + event.substring(1);
       var _singletonRouter = singletonRouter;
 
@@ -6409,10 +6409,10 @@ function getRouter() {
 
 var _default = singletonRouter; // Reexport the withRoute HOC
 
-exports.default = _default;
+exports["default"] = _default;
 
 function useRouter() {
-  return _react.default.useContext(_routerContext.RouterContext);
+  return _react["default"].useContext(_routerContext.RouterContext);
 } // INTERNAL APIS
 // -------------
 // (do not use following exports inside the app)
@@ -6426,7 +6426,7 @@ var createRouter = function createRouter() {
     args[_key] = arguments[_key];
   }
 
-  singletonRouter.router = _construct(_router2.default, args);
+  singletonRouter.router = _construct(_router2["default"], args);
   singletonRouter.readyCallbacks.forEach(function (cb) {
     return cb();
   });
@@ -6449,7 +6449,7 @@ function makePublicRouterInstance(router) {
       var property = _step.value;
 
       if (typeof _router[property] === 'object') {
-        instance[property] = (0, _extends2.default)({}, _router[property]); // makes sure query is not stateful
+        instance[property] = (0, _extends2["default"])({}, _router[property]); // makes sure query is not stateful
 
         continue;
       }
@@ -6462,8 +6462,8 @@ function makePublicRouterInstance(router) {
     _iteratorError = err;
   } finally {
     try {
-      if (!_iteratorNormalCompletion && _iterator.return != null) {
-        _iterator.return();
+      if (!_iteratorNormalCompletion && _iterator["return"] != null) {
+        _iterator["return"]();
       }
     } finally {
       if (_didIteratorError) {
@@ -6472,7 +6472,7 @@ function makePublicRouterInstance(router) {
     }
   }
 
-  instance.events = _router2.default.events;
+  instance.events = _router2["default"].events;
   coreMethodFields.forEach(function (field) {
     instance[field] = function () {
       return _router[field].apply(_router, arguments);
@@ -6506,7 +6506,7 @@ var _inherits = __webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
-exports.default = withRouter;
+exports["default"] = withRouter;
 
 var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/@babel/runtime-corejs2/helpers/extends.js"));
 
@@ -6533,19 +6533,19 @@ function withRouter(ComposedComponent) {
     _createClass(WithRouteWrapper, [{
       key: "render",
       value: function render() {
-        return _react.default.createElement(ComposedComponent, (0, _extends2.default)({
+        return _react["default"].createElement(ComposedComponent, (0, _extends2["default"])({
           router: this.context.router
         }, this.props));
       }
     }]);
 
     return WithRouteWrapper;
-  }(_react.default.Component);
+  }(_react["default"].Component);
 
   WithRouteWrapper.displayName = void 0;
   WithRouteWrapper.getInitialProps = void 0;
   WithRouteWrapper.contextTypes = {
-    router: _propTypes.default.object
+    router: _propTypes["default"].object
   };
   WithRouteWrapper.getInitialProps = ComposedComponent.getInitialProps;
 
@@ -6586,7 +6586,7 @@ var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/help
 exports.__esModule = true;
 exports.Container = Container;
 exports.createUrl = createUrl;
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/@babel/runtime-corejs2/helpers/extends.js"));
 
@@ -6612,7 +6612,7 @@ function appGetInitialProps(_x) {
 }
 
 function _appGetInitialProps() {
-  _appGetInitialProps = (0, _asyncToGenerator2.default)(
+  _appGetInitialProps = (0, _asyncToGenerator2["default"])(
   /*#__PURE__*/
   _regeneratorRuntime.mark(function _callee(_ref) {
     var Component, ctx, pageProps;
@@ -6674,18 +6674,18 @@ function (_react$default$Compon) {
           Component = _this$props.Component,
           pageProps = _this$props.pageProps;
       var url = createUrl(router);
-      return _react.default.createElement(Component, (0, _extends2.default)({}, pageProps, {
+      return _react["default"].createElement(Component, (0, _extends2["default"])({}, pageProps, {
         url: url
       }));
     }
   }]);
 
   return App;
-}(_react.default.Component);
+}(_react["default"].Component);
 
-exports.default = App;
+exports["default"] = App;
 App.childContextTypes = {
-  router: _propTypes.default.object
+  router: _propTypes["default"].object
 };
 App.origGetInitialProps = appGetInitialProps;
 App.getInitialProps = appGetInitialProps;
@@ -10026,7 +10026,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/deci-pc-ubuntu54/Development/final-project/from_leandro/nextjs-sass-bootstrap/pages/_app.js";
+var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 

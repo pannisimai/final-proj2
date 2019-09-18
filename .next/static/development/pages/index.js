@@ -19,7 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "/home/deci-pc-ubuntu54/Development/final-project/from_leandro/nextjs-sass-bootstrap/components/ActiveLink.js";
+var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/components/ActiveLink.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
 
@@ -65,7 +65,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return footer; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/deci-pc-ubuntu54/Development/final-project/from_leandro/nextjs-sass-bootstrap/components/footer.js";
+var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/components/footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 function footer() {
@@ -121,7 +121,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _ActiveLink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ActiveLink */ "./components/ActiveLink.js");
-var _jsxFileName = "/home/deci-pc-ubuntu54/Development/final-project/from_leandro/nextjs-sass-bootstrap/components/nav.js";
+var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/components/nav.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -4862,7 +4862,7 @@ function mitt() {
   };
 }
 
-exports.default = mitt;
+exports["default"] = mitt;
 
 /***/ }),
 
@@ -5371,7 +5371,7 @@ function () {
             resolve(routeInfo);
           }, reject);
         });
-      }).catch(function (err) {
+      })["catch"](function (err) {
         return new _Promise(function (resolve) {
           if (err.code === 'PAGE_LOAD_ERROR') {
             // If we can't load the page it could be one of following reasons
@@ -5636,7 +5636,7 @@ function () {
                   return {
                     pageProps: pageProps
                   };
-                }).catch(function (err) {
+                })["catch"](function (err) {
                   return {
                     error: err.message,
                     status: status
@@ -5719,8 +5719,8 @@ function () {
   return Router;
 }();
 
-Router.events = mitt_1.default();
-exports.default = Router;
+Router.events = mitt_1["default"]();
+exports["default"] = Router;
 
 /***/ }),
 
@@ -6009,10 +6009,10 @@ exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeo
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdeci-pc-ubuntu54%2FDevelopment%2Ffinal-project%2Ffrom_leandro%2Fnextjs-sass-bootstrap%2Fpages%2Findex.js!./":
-/*!*******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdeci-pc-ubuntu54%2FDevelopment%2Ffinal-project%2Ffrom_leandro%2Fnextjs-sass-bootstrap%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js!./":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js ***!
+  \***************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6057,7 +6057,7 @@ var _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/hel
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _map = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/map */ "./node_modules/@babel/runtime-corejs2/core-js/map.js"));
 
@@ -6103,7 +6103,7 @@ function formatUrl(url) {
 }
 
 var observer;
-var listeners = new _map.default();
+var listeners = new _map["default"]();
 var IntersectionObserver = true ? window.IntersectionObserver : undefined;
 
 function getObserver() {
@@ -6127,7 +6127,7 @@ function getObserver() {
 
       if (entry.isIntersecting || entry.intersectionRatio > 0) {
         observer.unobserve(entry.target);
-        listeners.delete(entry.target);
+        listeners["delete"](entry.target);
         cb();
       }
     });
@@ -6147,7 +6147,7 @@ var listenToIntersections = function listenToIntersections(el, cb) {
   listeners.set(el, cb);
   return function () {
     observer.unobserve(el);
-    listeners.delete(el);
+    listeners["delete"](el);
   };
 };
 
@@ -6205,7 +6205,7 @@ function (_react$Component) {
       } // replace state instead of push if prop is present
 
 
-      _router.default[_this.props.replace ? 'replace' : 'push'](href, as, {
+      _router["default"][_this.props.replace ? 'replace' : 'push'](href, as, {
         shallow: _this.props.shallow
       }).then(function (success) {
         if (!success) return;
@@ -6258,7 +6258,7 @@ function (_react$Component) {
 
       var href = (0, _url.resolve)(pathname, parsedHref);
 
-      _router.default.prefetch(href);
+      _router["default"].prefetch(href);
     }
   }, {
     key: "render",
@@ -6273,7 +6273,7 @@ function (_react$Component) {
 
 
       if (typeof children === 'string') {
-        children = _react.default.createElement("a", null, children);
+        children = _react["default"].createElement("a", null, children);
       } // This will return the first child, if multiple are provided it will throw an error
 
 
@@ -6317,7 +6317,7 @@ function (_react$Component) {
 
       if (false) {}
 
-      return _react.default.cloneElement(child, props);
+      return _react["default"].cloneElement(child, props);
     }
   }]);
 
@@ -6332,14 +6332,14 @@ if (true) {
   var exact = __webpack_require__(/*! prop-types-exact */ "./node_modules/prop-types-exact/build/index.js");
 
   Link.propTypes = exact({
-    href: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]).isRequired,
-    as: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]),
-    prefetch: _propTypes.default.bool,
-    replace: _propTypes.default.bool,
-    shallow: _propTypes.default.bool,
-    passHref: _propTypes.default.bool,
-    scroll: _propTypes.default.bool,
-    children: _propTypes.default.oneOfType([_propTypes.default.element, function (props, propName) {
+    href: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].object]).isRequired,
+    as: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].object]),
+    prefetch: _propTypes["default"].bool,
+    replace: _propTypes["default"].bool,
+    shallow: _propTypes["default"].bool,
+    passHref: _propTypes["default"].bool,
+    scroll: _propTypes["default"].bool,
+    children: _propTypes["default"].oneOfType([_propTypes["default"].element, function (props, propName) {
       var value = props[propName];
 
       if (typeof value === 'string') {
@@ -6352,7 +6352,7 @@ if (true) {
 }
 
 var _default = Link;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -6377,7 +6377,7 @@ var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/help
 exports.__esModule = true;
 exports.useRouter = useRouter;
 exports.makePublicRouterInstance = makePublicRouterInstance;
-exports.createRouter = exports.withRouter = exports.default = void 0;
+exports.createRouter = exports.withRouter = exports["default"] = void 0;
 
 var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/@babel/runtime-corejs2/helpers/extends.js"));
 
@@ -6387,14 +6387,14 @@ var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_mod
 
 var _router2 = _interopRequireWildcard(__webpack_require__(/*! next-server/dist/lib/router/router */ "./node_modules/next-server/dist/lib/router/router.js"));
 
-exports.Router = _router2.default;
+exports.Router = _router2["default"];
 exports.NextRouter = _router2.NextRouter;
 
 var _routerContext = __webpack_require__(/*! next-server/dist/lib/router-context */ "./node_modules/next-server/dist/lib/router-context.js");
 
 var _withRouter = _interopRequireDefault(__webpack_require__(/*! ./with-router */ "./node_modules/next/dist/client/with-router.js"));
 
-exports.withRouter = _withRouter.default;
+exports.withRouter = _withRouter["default"];
 /* global window */
 
 var singletonRouter = {
@@ -6414,9 +6414,9 @@ var urlPropertyFields = ['pathname', 'route', 'query', 'asPath', 'components'];
 var routerEvents = ['routeChangeStart', 'beforeHistoryChange', 'routeChangeComplete', 'routeChangeError', 'hashChangeStart', 'hashChangeComplete'];
 var coreMethodFields = ['push', 'replace', 'reload', 'back', 'prefetch', 'beforePopState']; // Events is a static property on the router, the router doesn't have to be initialized to use it
 
-(0, _defineProperty.default)(singletonRouter, 'events', {
+(0, _defineProperty["default"])(singletonRouter, 'events', {
   get: function get() {
-    return _router2.default.events;
+    return _router2["default"].events;
   }
 });
 urlPropertyFields.forEach(function (field) {
@@ -6424,7 +6424,7 @@ urlPropertyFields.forEach(function (field) {
   // the property assigned to the actual router
   // The value might get changed as we change routes and this is the
   // proper way to access it
-  (0, _defineProperty.default)(singletonRouter, field, {
+  (0, _defineProperty["default"])(singletonRouter, field, {
     get: function get() {
       var router = getRouter();
       return router[field];
@@ -6442,7 +6442,7 @@ coreMethodFields.forEach(function (field) {
 });
 routerEvents.forEach(function (event) {
   singletonRouter.ready(function () {
-    _router2.default.events.on(event, function () {
+    _router2["default"].events.on(event, function () {
       var eventField = "on" + event.charAt(0).toUpperCase() + event.substring(1);
       var _singletonRouter = singletonRouter;
 
@@ -6472,10 +6472,10 @@ function getRouter() {
 
 var _default = singletonRouter; // Reexport the withRoute HOC
 
-exports.default = _default;
+exports["default"] = _default;
 
 function useRouter() {
-  return _react.default.useContext(_routerContext.RouterContext);
+  return _react["default"].useContext(_routerContext.RouterContext);
 } // INTERNAL APIS
 // -------------
 // (do not use following exports inside the app)
@@ -6489,7 +6489,7 @@ var createRouter = function createRouter() {
     args[_key] = arguments[_key];
   }
 
-  singletonRouter.router = _construct(_router2.default, args);
+  singletonRouter.router = _construct(_router2["default"], args);
   singletonRouter.readyCallbacks.forEach(function (cb) {
     return cb();
   });
@@ -6512,7 +6512,7 @@ function makePublicRouterInstance(router) {
       var property = _step.value;
 
       if (typeof _router[property] === 'object') {
-        instance[property] = (0, _extends2.default)({}, _router[property]); // makes sure query is not stateful
+        instance[property] = (0, _extends2["default"])({}, _router[property]); // makes sure query is not stateful
 
         continue;
       }
@@ -6525,8 +6525,8 @@ function makePublicRouterInstance(router) {
     _iteratorError = err;
   } finally {
     try {
-      if (!_iteratorNormalCompletion && _iterator.return != null) {
-        _iterator.return();
+      if (!_iteratorNormalCompletion && _iterator["return"] != null) {
+        _iterator["return"]();
       }
     } finally {
       if (_didIteratorError) {
@@ -6535,7 +6535,7 @@ function makePublicRouterInstance(router) {
     }
   }
 
-  instance.events = _router2.default.events;
+  instance.events = _router2["default"].events;
   coreMethodFields.forEach(function (field) {
     instance[field] = function () {
       return _router[field].apply(_router, arguments);
@@ -6569,7 +6569,7 @@ var _inherits = __webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
-exports.default = withRouter;
+exports["default"] = withRouter;
 
 var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/@babel/runtime-corejs2/helpers/extends.js"));
 
@@ -6596,19 +6596,19 @@ function withRouter(ComposedComponent) {
     _createClass(WithRouteWrapper, [{
       key: "render",
       value: function render() {
-        return _react.default.createElement(ComposedComponent, (0, _extends2.default)({
+        return _react["default"].createElement(ComposedComponent, (0, _extends2["default"])({
           router: this.context.router
         }, this.props));
       }
     }]);
 
     return WithRouteWrapper;
-  }(_react.default.Component);
+  }(_react["default"].Component);
 
   WithRouteWrapper.displayName = void 0;
   WithRouteWrapper.getInitialProps = void 0;
   WithRouteWrapper.contextTypes = {
-    router: _propTypes.default.object
+    router: _propTypes["default"].object
   };
   WithRouteWrapper.getInitialProps = ComposedComponent.getInitialProps;
 
@@ -10358,7 +10358,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_index_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
 /* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
-var _jsxFileName = "/home/deci-pc-ubuntu54/Development/final-project/from_leandro/nextjs-sass-bootstrap/pages/index.js";
+var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -10444,14 +10444,14 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 0:
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fdeci-pc-ubuntu54%2FDevelopment%2Ffinal-project%2Ffrom_leandro%2Fnextjs-sass-bootstrap%2Fpages%2Findex.js ***!
-  \***********************************************************************************************************************************************************************************/
+/***/ 1:
+/*!*******************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js ***!
+  \*******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fdeci-pc-ubuntu54%2FDevelopment%2Ffinal-project%2Ffrom_leandro%2Fnextjs-sass-bootstrap%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdeci-pc-ubuntu54%2FDevelopment%2Ffinal-project%2Ffrom_leandro%2Fnextjs-sass-bootstrap%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -10467,5 +10467,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

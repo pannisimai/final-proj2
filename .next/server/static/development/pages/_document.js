@@ -1077,7 +1077,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/home/deci-pc-ubuntu54/Development/final-project/from_leandro/nextjs-sass-bootstrap/pages/_document.js";
+var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/pages/_document.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
