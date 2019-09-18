@@ -10,7 +10,7 @@ class MyApp extends App {
             <>
                 <Head>
 
-                    <title>Check your Priviledge</title>
+                    <title>Check your Privilege</title>
                 </Head>
                 <Component {...pageProps} />
             </>
