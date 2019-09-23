@@ -7054,5 +7054,8 @@ img {
 .navbar-links {
   margin-left: auto; }
 
+.nav-item:hover {
+  color: #f49708; }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/
