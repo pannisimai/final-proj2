@@ -225,8 +225,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
  // import "../sass/main.scss";
 
 function nav() {
-  return __jsx("header", {
-    className: "masthead mb-auto",
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7

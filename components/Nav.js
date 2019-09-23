@@ -4,7 +4,7 @@ import Link from "./ActiveLink";
 
 export default function nav() {
   return (
-    <header className="masthead mb-auto">
+    <React.Fragment>
       {/* beginning of bootstrap navbar */}
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
@@ -75,6 +75,6 @@ export default function nav() {
           </Link>
         </nav>
       </div> */}
-    </header>
+    </React.Fragment>
   );
 }
