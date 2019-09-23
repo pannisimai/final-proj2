@@ -4,6 +4,11 @@
 @import "./base/typography";
 //most main scsssssss are just a big list of imports
 //ORDER IS IM POR TANT
+@import "./pages/index";
+@import "./pages/about";
+@import "./components/footer";
+@import "./components/nav";
+
 $font-size: 50px;
 
 * {
