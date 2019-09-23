@@ -1,6 +1,6 @@
 import "../styles/index.scss"
-import Nav from '../components/nav'
-import Footer from '../components/footer'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 const Index = () => (
     <div className="cover-container d-flex h-100 p-3 mx-auto flex-column">

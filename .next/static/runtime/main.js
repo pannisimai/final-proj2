@@ -6187,7 +6187,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/dci-pc-ubuntu72/Bru/Final Project/GitHub/final-proj2/.next");
       return error;
     }
   };

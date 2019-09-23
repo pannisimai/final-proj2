@@ -10026,7 +10026,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/pages/_app.js";
+var _jsxFileName = "/home/dci-pc-ubuntu72/Bru/Final Project/GitHub/final-proj2/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
@@ -10061,7 +10061,7 @@ function (_App) {
           lineNumber: 13
         },
         __self: this
-      }, "Check your Priviledge")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+      }, "Check your Privilege")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15

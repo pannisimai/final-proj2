@@ -19,7 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/components/ActiveLink.js";
+var _jsxFileName = "/home/dci-pc-ubuntu72/Bru/Final Project/GitHub/final-proj2/components/ActiveLink.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
 
@@ -53,9 +53,9 @@ var ActiveLink = function ActiveLink(_ref) {
 
 /***/ }),
 
-/***/ "./components/footer.js":
+/***/ "./components/Footer.js":
 /*!******************************!*\
-  !*** ./components/footer.js ***!
+  !*** ./components/Footer.js ***!
   \******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -65,7 +65,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return footer; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/components/footer.js";
+var _jsxFileName = "/home/dci-pc-ubuntu72/Bru/Final Project/GitHub/final-proj2/components/Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 function footer() {
@@ -108,9 +108,9 @@ function footer() {
 
 /***/ }),
 
-/***/ "./components/nav.js":
+/***/ "./components/Nav.js":
 /*!***************************!*\
-  !*** ./components/nav.js ***!
+  !*** ./components/Nav.js ***!
   \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -121,7 +121,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _ActiveLink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ActiveLink */ "./components/ActiveLink.js");
-var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/components/nav.js";
+var _jsxFileName = "/home/dci-pc-ubuntu72/Bru/Final Project/GitHub/final-proj2/components/Nav.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -6009,10 +6009,10 @@ exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeo
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js!./":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdci-pc-ubuntu72%2FBru%2FFinal%20Project%2FGitHub%2Ffinal-proj2%2Fpages%2Findex.js!./":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdci-pc-ubuntu72%2FBru%2FFinal%20Project%2FGitHub%2Ffinal-proj2%2Fpages%2Findex.js ***!
+  \********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10356,9 +10356,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.scss */ "./styles/index.scss");
 /* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_index_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/footer */ "./components/footer.js");
-var _jsxFileName = "/home/bru/Bru/DCI/final-project/panni-fp2/final-proj2/pages/index.js";
+/* harmony import */ var _components_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Nav */ "./components/Nav.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+var _jsxFileName = "/home/dci-pc-ubuntu72/Bru/Final Project/GitHub/final-proj2/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -10373,7 +10373,7 @@ var Index = function Index() {
       lineNumber: 6
     },
     __self: this
-  }, __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_components_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -10431,7 +10431,7 @@ var Index = function Index() {
       lineNumber: 13
     },
     __self: this
-  }, "Learn more"))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Learn more"))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -10444,14 +10444,14 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 1:
-/*!*******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ 0:
+/*!************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fdci-pc-ubuntu72%2FBru%2FFinal%20Project%2FGitHub%2Ffinal-proj2%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbru%2FBru%2FDCI%2Ffinal-project%2Fpanni-fp2%2Ffinal-proj2%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fdci-pc-ubuntu72%2FBru%2FFinal%20Project%2FGitHub%2Ffinal-proj2%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fdci-pc-ubuntu72%2FBru%2FFinal%20Project%2FGitHub%2Ffinal-proj2%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -10467,5 +10467,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
