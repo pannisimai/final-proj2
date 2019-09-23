@@ -9,10 +9,7 @@
 @import "./components/footer";
 @import "./components/nav";
 
-$font-size: 50px;
-
 * {
-  font-size: $font-size;
   color: hotpink;
   font-family: $font-roboto;
 }

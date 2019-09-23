@@ -127,34 +127,71 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/dci-pc-ubuntu72/Bru/Final Project/GitHub/final-proj2/components/Nav.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+ // import "../sass/main.scss";
 
 function nav() {
   return __jsx("header", {
     className: "masthead mb-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "inner",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, __jsx("h3", {
-    className: "masthead-brand",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "HelloNext"), __jsx("nav", {
-    className: "nav nav-masthead justify-content-center",
+  }, __jsx("nav", {
+    "class": "navbar navbar-expand-lg navbar-light bg-light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    "class": "navbar-brand",
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Hi!"), __jsx("button", {
+    "class": "navbar-toggler",
+    type: "button",
+    "data-toggle": "collapse",
+    "data-target": "#navbarNav",
+    "aria-controls": "navbarNav",
+    "aria-expanded": "false",
+    "aria-label": "Toggle navigation",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("span", {
+    "class": "navbar-toggler-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  })), __jsx("div", {
+    "class": "collapse navbar-collapse",
+    id: "navbarNav",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("ul", {
+    "class": "navbar-nav",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, __jsx("li", {
+    "class": "nav-item active",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
     },
     __self: this
   }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -162,92 +199,105 @@ function nav() {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 27
     },
     __self: this
   }, __jsx("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 28
     },
     __self: this
-  }, "Home")), __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "Home"))), __jsx("li", {
+    "class": "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 32
     },
     __self: this
   }, __jsx("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 33
     },
     __self: this
-  }, "About")), __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    activeClassName: "active",
-    href: "/quizzes",
+  }, "About"))), __jsx("li", {
+    "class": "nav-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 36
     },
     __self: this
-  }, __jsx("a", {
-    className: "nav-link ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Quizzes")), __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/rules",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 37
     },
     __self: this
   }, __jsx("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 38
     },
     __self: this
-  }, "House of Rules")), __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "House of Rules"))), __jsx("li", {
+    "class": "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/resources",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 42
     },
     __self: this
   }, __jsx("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 43
     },
     __self: this
-  }, "Resources")), __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "Resources"))), __jsx("li", {
+    "class": "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx(_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
     activeClassName: "active",
     href: "/angry",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 47
     },
     __self: this
   }, __jsx("a", {
     className: "nav-link ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 48
     },
     __self: this
-  }, "Angry Feminist Corner")))));
+  }, "Angry Feminist Corner")))))));
 }
 
 /***/ }),
@@ -10369,8 +10419,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Index = function Index() {
-  return __jsx("div", {
-    className: "cover-container d-flex h-100 p-3 mx-auto flex-column index-container",
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -10382,33 +10431,40 @@ var Index = function Index() {
       lineNumber: 7
     },
     __self: this
-  }), __jsx("main", {
+  }), __jsx("div", {
+    className: "cover-container d-flex h-100 p-3 mx-auto flex-column index-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("main", {
     role: "main",
     className: "inner cover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, __jsx("h1", {
     className: "cover-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, "Homepage"), __jsx("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), __jsx("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, __jsx("img", {
@@ -10416,14 +10472,14 @@ var Index = function Index() {
     alt: "meow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   })), __jsx("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, __jsx("a", {
@@ -10431,16 +10487,16 @@ var Index = function Index() {
     className: "btn btn-secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, "Learn more"))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
-  }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
