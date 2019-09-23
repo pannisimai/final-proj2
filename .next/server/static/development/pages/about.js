@@ -275,7 +275,7 @@ function nav() {
     },
     __self: this
   }, __jsx("ul", {
-    class: "navbar-nav",
+    class: "navbar-nav navbar-links",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -1294,7 +1294,13 @@ const About = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,
     lineNumber: 28
   },
   __self: undefined
-})));
+})), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, "WTF is this space"));
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 

@@ -275,7 +275,7 @@ function nav() {
     },
     __self: this
   }, __jsx("ul", {
-    class: "navbar-nav",
+    class: "navbar-nav navbar-links",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25

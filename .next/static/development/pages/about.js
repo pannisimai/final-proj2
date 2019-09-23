@@ -180,7 +180,7 @@ function nav() {
     },
     __self: this
   }, __jsx("ul", {
-    "class": "navbar-nav",
+    "class": "navbar-nav navbar-links",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -10506,7 +10506,13 @@ var About = function About() {
       lineNumber: 28
     },
     __self: this
-  })));
+  })), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "WTF is this space"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
