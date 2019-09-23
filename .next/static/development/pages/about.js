@@ -10434,7 +10434,7 @@ var About = function About() {
     },
     __self: this
   }), __jsx("div", {
-    className: "cover-container d-flex h-100 p-3 mx-auto flex-column",
+    className: "cover-container d-flex h-100 p-3 mx-auto flex-column about-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9

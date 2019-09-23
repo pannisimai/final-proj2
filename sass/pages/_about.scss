@@ -1,2 +1,5 @@
 // About Page specific styles
-@import "../helpers/variables";
+.about-container {
+  background-color: $dark-background-color;
+  color: $bright-text-color;
+}

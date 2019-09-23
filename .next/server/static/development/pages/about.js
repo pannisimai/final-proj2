@@ -1222,7 +1222,7 @@ const About = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment,
   },
   __self: undefined
 }), __jsx("div", {
-  className: "cover-container d-flex h-100 p-3 mx-auto flex-column",
+  className: "cover-container d-flex h-100 p-3 mx-auto flex-column about-container",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
