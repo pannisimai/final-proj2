@@ -10422,8 +10422,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var About = function About() {
-  return __jsx("div", {
-    className: "cover-container d-flex h-100 p-3 mx-auto flex-column",
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -10435,33 +10434,40 @@ var About = function About() {
       lineNumber: 8
     },
     __self: this
-  }), __jsx("main", {
+  }), __jsx("div", {
+    className: "cover-container d-flex h-100 p-3 mx-auto flex-column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("main", {
     role: "main",
     className: "inner cover",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, __jsx("h1", {
     className: "cover-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, "About page"), __jsx("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, "A page about us"), __jsx("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, __jsx("img", {
@@ -10470,21 +10476,21 @@ var About = function About() {
     alt: "Meow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   })), __jsx("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, __jsx("button", {
@@ -10492,16 +10498,16 @@ var About = function About() {
     className: "btn btn-danger",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, "Back")))), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
-  }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
