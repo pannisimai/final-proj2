@@ -1,0 +1,12 @@
+// primary Sass file
+@import "./helpers/_variables";
+@import "./base/typography";
+//most main scsssssss are just a big list of imports
+//ORDER IS IM POR TANT
+$font-size: 50px;
+
+* {
+  font-size: $font-size;
+  color: hotpink;
+  font-family: $font-roboto;
+}
